@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTitle("My First APP");
+        setTitle("My First APP on appstore");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
