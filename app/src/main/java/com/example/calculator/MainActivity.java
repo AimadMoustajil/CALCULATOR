@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
                     res = num1 * num2;
                 }
                 if (mul.isChecked()) {
+                    if (num2 == 0 ) return;
                     res = num1 / num2;
+
                 }
 
                 Toast.makeText(MainActivity.this, String.valueOf(res), Toast.LENGTH_SHORT).show();
